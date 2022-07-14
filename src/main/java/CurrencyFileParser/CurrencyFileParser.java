@@ -13,7 +13,7 @@ import org.w3c.dom.NodeList;
 
 public class CurrencyFileParser {
 
-	private Map<String, String> mapCurrency=null;
+	private Map<String, String> mapCurrency = null;
 
 	public CurrencyFileParser() {
 		try {
@@ -36,10 +36,10 @@ public class CurrencyFileParser {
 			e.printStackTrace();
 		}
 	}
-	
-	public Map<String,String> returnMap(){
-		
+
+	public Map<String, String> returnMap() {
+
 		return this.mapCurrency;
 	}
-	
+
 }
